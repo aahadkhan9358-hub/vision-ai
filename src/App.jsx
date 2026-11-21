@@ -94,13 +94,3 @@ export default function App() {
             accept="video/*"
             onChange={e=>setVideo(e.target.files[0])}
             style={field}
-          />
-          {video && <p>Selected: {video.name}</p>}
-          <label>Number of clips: {clips}</label>
-          <input
-            type="range"
-            min="1"
-            max="20"
-            va
-
-        
