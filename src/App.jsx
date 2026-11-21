@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 
 export default function App() {
@@ -102,39 +101,6 @@ export default function App() {
             type="range"
             min="1"
             max="20"
-            value={clips}
-            onChange={e=>setClips(Number(e.target.value))}
-          />
-          <button onClick={()=>alert(
-            'Video processing engine is not connected yet.'
-          )}>
-            Extract Clips
-          </button>
-          <p style={{color:'#a99bff'}}>
-            Video processing engine: Not connected yet
-          </p>
-        </div>
-      )}
-    </div>
-  );
-}
+            va
 
-const card = {
-  background:'#121a2c',
-  border:'1px solid #293653',
-  borderRadius:'18px',
-  padding:'24px',
-  marginTop:'20px'
-};
-
-const field = {
-  display:'block',
-  width:'100%',
-  padding:'14px',
-  margin:'15px 0',
-  background:'#080f20',
-  color:'white',
-  border:'1px solid #39445c',
-  borderRadius:'10px'
-};
-          
+        
